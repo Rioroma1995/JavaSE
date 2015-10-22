@@ -22,7 +22,7 @@ public class Window extends JFrame implements ActionListener {
 	private Picture picture, newPicture;
 	private File file;
 	private JFileChooser fileopen;
-	private static boolean isOpen = false;
+	private boolean isOpen = false;
 
 	public Window() {
 		super("Ресайзинг картинок");
